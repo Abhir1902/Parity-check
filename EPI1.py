@@ -4,4 +4,5 @@ def parity(x):
         result^=x&1
         x>>=1
     return result
-print(parity(2))
+n=int(input("Enter the number which is to be checked"))
+print(parity(n))
